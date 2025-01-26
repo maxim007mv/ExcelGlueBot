@@ -58,6 +58,31 @@ pyxlsb==1.0.10 \
 odfpy==1.4.1 \
 python-dotenv==1.0.0
 
+## 2. Полная установка (включая все транзитивные зависимости)
+pip install --upgrade pip && pip install \
+python-telegram-bot==20.3 \
+pandas==2.0.3 \
+numpy==1.24.3 \
+openpyxl==3.1.2 \
+xlrd==2.0.1 \
+pyxlsb==1.0.10 \
+odfpy==1.4.1 \
+python-dotenv==1.0.0 \
+httpx==0.24.1 \
+httpcore==0.17.3 \
+anyio==4.8.0 \
+typing-extensions==4.12.2 \
+idna==3.10 \
+h11==0.14.0 \
+sniffio==1.3.1 \
+certifi==2024.12.14 \
+python-dateutil==2.9.0.post0 \
+pytz==2024.2 \
+tzdata==2025.1 \
+defusedxml==0.7.1 \
+et-xmlfile==2.0.0 \
+six==1.17.0
+
 # Создать файл .env
 echo "TELEGRAM_BOT_TOKEN=ваш_токен" > .env
 
