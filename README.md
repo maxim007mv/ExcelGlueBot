@@ -29,7 +29,7 @@ Telegram-бот для автоматического сравнения цен 
 ### 1. Локальная установка
 ```bash
 # Клонировать репозиторий
-git clone https://github.com/yourusername/price-comparator-bot.git
+git clone https://github.com/maxim007mv/ExcelGlueBot
 cd price-comparator-bot
 
 # Создать виртуальное окружение
